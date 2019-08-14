@@ -1,0 +1,130 @@
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+  @media only screen 
+  and (min-device-width : 768px)  {
+    .modal {
+      position: absolute;
+      background-color: white;
+      top: 20px;
+      left: 35%;
+      width: 30%;
+    }
+    #header>ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: inline-block; 
+      width: 100%;
+    }
+    
+    #header>ul>li{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: inline-block; 
+      padding:20px;
+    }
+    .to-left{
+      float: left !important;
+    }
+    .to-right {
+      float: right !important;
+    }
+    .lg-hidden {
+      display: none !important;
+    }
+    .jumbo-height {
+      height: 500px;
+    }
+
+    .col-md-1 {
+      width: 100%;
+    }
+    .col-md-2 {
+      width: 47% !important;
+      float: left !important;
+    }
+    .col-md-4 {
+      width: 24%;
+    }
+    .col-md-3 {
+      width: 32.5%;
+    }
+    .col-md-3-4 {
+      width: 75%;
+    }
+	}
+
+
+
+	/*==========  Non-Mobile First Method  ==========*/
+	/* Small Devices, Tablets */
+  @media only screen 
+  and (max-device-width : 767px) {
+    .modal {
+      position: absolute;
+      background-color: white;
+      top: 50px;
+      left: 0px;
+      padding: 10px;
+    }
+    #header>ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden !important;
+      width: 100%;
+    }
+  
+    #header>ul>li{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      padding: 15px;
+      text-align: center;
+      font: 30px !important;
+    }
+    .sm-hidden {
+      display: none !important;
+    }
+    .jumbo-height{
+      height: 300px;
+    }
+
+    .col-sm-1 {
+      width: 100%;
+    }
+    .col-sm-2 {
+      width: 49%;
+    }
+    .col-sm-4 {
+      width: 24%;
+    }
+    .col-sm-3 {
+      width: 32.5%;
+    }
+    .section-it-sm{
+      margin-top: 5% !important;
+    }
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
